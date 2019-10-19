@@ -1,5 +1,5 @@
-#include <FastLED.h>
 #include <EEPROM.h>
+#include <FastLED.h>
 
 #define FASTLED_ALLOW_INTERRUPTS 1
 #define FASTLED_INTERRUPT_RETRY_COUNT 1
@@ -100,6 +100,7 @@ void solid(CRGB color) {
   }  
   FastLED.show();
 }
+
 
 void twoTone(CRGB first, CRGB second) {
   leds[0] = first;
