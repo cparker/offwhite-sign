@@ -1,5 +1,6 @@
 {
     "board": "arduino:avr:nano",
     "configuration": "cpu=atmega328",
-    "sketch": "offwhite-sign.ino"
+    "sketch": "offwhite-sign.ino",
+    "output" : "build"
 }
